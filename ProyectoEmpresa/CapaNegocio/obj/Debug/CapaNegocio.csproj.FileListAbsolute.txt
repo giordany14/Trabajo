@@ -1,0 +1,5 @@
+C:\Users\GiordanyMB\source\repos\ProyectoEmpresa\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\GiordanyMB\source\repos\ProyectoEmpresa\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\GiordanyMB\source\repos\ProyectoEmpresa\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\GiordanyMB\source\repos\ProyectoEmpresa\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\GiordanyMB\source\repos\ProyectoEmpresa\CapaNegocio\obj\Debug\CapaNegocio.pdb
