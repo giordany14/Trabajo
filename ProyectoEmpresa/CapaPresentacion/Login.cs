@@ -19,7 +19,8 @@ namespace CapaPresentacion
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            
+           Application.Exit();
         }
 
         private void Login_KeyPress(object sender, KeyPressEventArgs e)
@@ -29,12 +30,20 @@ namespace CapaPresentacion
 
         private void BtnSesion_Click(object sender, EventArgs e)
         {
+            LimpiarCampos();
             IniciarSesión();
         }
 
         public void IniciarSesión()
         {
-            Application.Exit();
+            PrincipalMaster pm = new PrincipalMaster();
+            pm.Show();
+            this.Hide();
+        }
+        public void LimpiarCampos()
+        {
+            txtContraseña.Text = null;
+            txxCorreo.Text = null;
         }
     }
 }

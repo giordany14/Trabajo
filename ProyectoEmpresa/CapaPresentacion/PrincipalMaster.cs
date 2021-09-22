@@ -14,5 +14,45 @@ namespace CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void PrincipalMaster_Load(object sender, EventArgs e)
+        {
+            ActualizarInfo.Hide();
+        }
+
+        private void CerrarSesión_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login lg = new Login();
+            lg.Show();
+        }
+
+
+        private void txtCerrarSesion_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login lg = new Login();
+            lg.Show();
+        }
+
+        private void EditarInfo_Click(object sender, EventArgs e)
+        {
+
+            tabControlFunciones.Hide();
+            ActualizarInfo.Show();
+            panelNavar.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Cancelar_Click(object sender, EventArgs e)
+        {
+            ActualizarInfo.Hide();
+            tabControlFunciones.Show();
+            panelNavar.Show();
+        }
     }
 }
